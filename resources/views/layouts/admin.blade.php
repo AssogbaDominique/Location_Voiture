@@ -88,42 +88,17 @@
                         </a>
                     </li>
 
+                    <li class="single-menu">
+                        <a href="{{ route('admin.marques.liste')}}" class="d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <i data-feather="alert-circle" stroke-width="1.5" height="18" class="me2"></i>
+                                <span>Marques</span>
+                            </div>
+                        </a>
+                    </li>
+
                 </ul>
 
-                <!--<div class="menu-title mb-2">
-     <small>PAGES</small>
-    </div>-->
-
-                <!--<ul class="menu-group m-0 px-4 mb-4">
-     <li class="sub-menu">
-      <a href="javascript:;" class="d-flex align-items-center justify-content-between">
-       <div class="d-flex align-items-center">
-        <i data-feather="user" stroke-width="1.5" height="18" class="me2"></i>
-        <span>Compte</span>
-       </div>
-       <i class="arrow" data-feather="chevron-right" height="14"></i>
-      </a>
-      <ul class="sub-menu-group">
-       <li><a href="pages-account-user-settings.html"><span>Admin</span></a></li>
-       <li><a href="pages-account-user-security.html"><span>Manager</span></a></li>
-      </ul>
-     </li>
-     <li class="sub-menu">
-      <a href="javascript:;" class="d-flex align-items-center justify-content-between">
-       <div class="d-flex align-items-center">
-        <i data-feather="key" stroke-width="1.5" height="18" class="me2"></i>
-        <span>Authentication</span>
-       </div>
-       <i class="arrow" data-feather="chevron-right" height="14"></i>
-      </a>
-      <ul class="sub-menu-group">
-       <li><a href="pages-authentication-sign-in.html"><span>Sign-in</span></a></li>
-       <li><a href="pages-authentication-sign-up.html"><span>Sign-up</span></a></li>
-       <li><a href="pages-authentication-reset-password.html"><span>Reset Password</span></a></li>
-       <li><a href="pages-authentication-new-password.html"><span>New Password</span></a></li>
-      </ul>
-     </li>
-    </ul> -->
                 <!-- ***** Pages Menu End ***** -->
             </div>
             <!-- ***** Sidebar Menu End ***** -->
@@ -236,10 +211,9 @@
                         <!-- ***** Icon Start ***** -->
                         <a href="javascript:;"
                             class="header-dropdown bg-secondary-subtle rounded d-flex align-items-center justify-content-center position-relative overflow-auto outline-none"
-                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                            aria-controls="offcanvasRight" data-disablescrolling="false">
-                            <i data-feather="message-square" stroke-width="2" height="22"
-                                class="text-secondary"></i>
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                            data-disablescrolling="false">
+                            <i data-feather="message-square" stroke-width="2" height="22" class="text-secondary"></i>
                             <span
                                 class="badge rounded-pill text-bg-danger position-absolute scale-70 top-0 end-0">3</span>
                         </a>
@@ -253,8 +227,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="position-relative">
                                             <div class="img-fix rounded-circle me3 height-40 width-40">
-                                                <img src="{{ asset('assets/auth/media/avatars/12.jpg') }}"
-                                                    alt="">
+                                                <img src="{{ asset('assets/auth/media/avatars/12.jpg') }}" alt="">
                                             </div>
                                             <span
                                                 class="badge rounded-pill text-bg-success position-absolute scale-70 bottom-0 end-0">&nbsp;</span>
@@ -313,8 +286,7 @@
                                     <div class="d-flex flex-column align-items-start mb6">
                                         <div class="d-flex align-items-center mb3">
                                             <div class="img-fix rounded-circle me3 height-30 width-30 me3">
-                                                <img src="{{ asset('asseets/auth/media/avatars/12.jpg') }}"
-                                                    alt="">
+                                                <img src="{{ asset('asseets/auth/media/avatars/12.jpg') }}" alt="">
                                             </div>
                                             <span class="text-heading me3">Justin Case</span>
                                             <span>48 min.</span>
@@ -330,8 +302,7 @@
                                             <span>46 min.</span>
                                             <span class="text-heading ms3">You</span>
                                             <div class="img-fix rounded-circle me3 height-30 width-30 ms3">
-                                                <img src="{{ asset('assets/auth/media/avatars/6.jpg') }}"
-                                                    alt="">
+                                                <img src="{{ asset('assets/auth/media/avatars/6.jpg') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="p4 bg-light rounded">
@@ -343,8 +314,7 @@
                                     <div class="d-flex flex-column align-items-start mb6">
                                         <div class="d-flex align-items-center mb3">
                                             <div class="img-fix rounded-circle me3 height-30 width-30 me3">
-                                                <img src="{{ asset('assets/auth/media/avatars/12.jpg') }}"
-                                                    alt="">
+                                                <img src="{{ asset('assets/auth/media/avatars/12.jpg') }}" alt="">
                                             </div>
                                             <span class="text-heading me3">Justin Case</span>
                                             <span>43 min.</span>
@@ -359,8 +329,7 @@
                                             <span>40 min.</span>
                                             <span class="text-heading ms3">You</span>
                                             <div class="img-fix rounded-circle me3 height-30 width-30 ms3">
-                                                <img src="{{ asset('assets/auth/media/avatars/6.jpg') }}"
-                                                    alt="">
+                                                <img src="{{ asset('assets/auth/media/avatars/6.jpg') }}" alt="">
                                             </div>
                                         </div>
                                         <div class="p4 mb1 bg-light rounded">
@@ -379,8 +348,7 @@
                                     <div class="d-flex flex-column align-items-start">
                                         <div class="d-flex align-items-center mb3">
                                             <div class="img-fix rounded-circle me3 height-30 width-30 me3">
-                                                <img src="{{ asset('assets/auth/media/avatars/12.jpg') }}"
-                                                    alt="">
+                                                <img src="{{ asset('assets/auth/media/avatars/12.jpg') }}" alt="">
                                             </div>
                                             <span class="text-heading me3">Justin Case</span>
                                             <span>38 min.</span>
@@ -409,8 +377,7 @@
                                     <div>
                                         <a href="#"
                                             class="width-40 height-40 d-flex align-items-center justify-content-center">
-                                            <i data-feather="send" stroke-width="1.5" height="22"
-                                                class="text-body"></i>
+                                            <i data-feather="send" stroke-width="1.5" height="22" class="text-body"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -554,8 +521,7 @@
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
 
-                                <x-dropdown-link :href="route('logout')"
-                                    onclick="event.preventDefault();
+                                <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
 													this.closest('form').submit();">
                                     {{ __('Log Out') }}
                                 </x-dropdown-link>

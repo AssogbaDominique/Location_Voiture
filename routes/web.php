@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdministrateurController;
+use App\Http\Controllers\MarqueController;
+use App\Http\Controllers\VoitureController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +41,16 @@ Route::prefix('admin')->name('admin')->group(function () {
         Route::post('/enregistrer','store')->name('.enregistrer');
         Route::get('/{voiture}/modifier','edit')->name('.modifier');
         Route::delete('/{voiture}','destroy')->name('.destroy');
+    });
+
+    Route::controller(MarqueController::class)->prefix('marques')->name('.marques')->group(function () {
+        Route::get('/liste', 'index')->name('.liste');
+        Route::post('/enregistrer', 'store')->name('.enregistrer');
+        Route::post('/modifier', 'update')->name('.modifier');
+        Route::get('/details/{id}', 'show')->name('.details');
+        Route::get('/{marque}/modifier', 'edit')->name('.modifier');
+        Route::delete('/{voiture}', 'destroy')->name('.destroy');
+
     });
 });
 

@@ -145,9 +145,4 @@
             </ul>
         </nav>
     </div>
-    </div>
-    </div>
-    <!-- Content End -->
-    </div>
-    </div>
 @endsection
